@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Tangerine&family=Parisienne&family=Sacramento&family=Great+Vibes&family=Allura&family=Alex+Brush&family=Petit+Formal+Script&family=Italianno&family=Herr+Von+Muellerhoff&family=Qwigley&display=swap');
-
 body {
     margin: 0;
     background-color: #f5f5f5;
     font-family: Arial, sans-serif;
     min-height: 100vh;
+    overflow-x: hidden;  /* geen horizontaal scrollen */
 }
 
 .container {
@@ -13,27 +12,34 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2px;         /* nog minder ruimte */
+    gap: 2px;
+    padding: 0 10px;   /* kleine padding links/rechts */
+    box-sizing: border-box;
 }
 
 .logo {
-    width: 100px;    /* nog kleiner logo (200 → 100) */
+    width: 100px;
+    max-width: 100%;
     display: block;
     margin: 0 auto;
 }
 
 h1 {
-    margin: 2px 0;   /* marges gehalveerd */
-    font-size: 30px; /* de helft kleiner (60 → 30) */
+    margin: 2px 0;
+    font-size: 30px;
     font-weight: 400;
     color: #333;
     font-family: 'Tangerine', cursive;
+    max-width: 100%;
+    word-break: break-word;
 }
 
 h2 {
     margin: 2px 0;
-    font-size: 20px; /* de helft kleiner (40 → 20) */
+    font-size: 20px;
     font-weight: 400;
     color: #333;
     font-family: 'Tangerine', cursive;
+    max-width: 100%;
+    word-break: break-word;
 }
