@@ -1,29 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&family=Parisienne&family=Sacramento&family=Great+Vibes&family=Allura&family=Alex+Brush&family=Petit+Formal+Script&family=Italianno&family=Herr+Von+Muellerhoff&family=Qwigley&display=swap');
 
 body {
     margin: 0;
     background-color: #f5f5f5;
     font-family: Arial, sans-serif;
+    min-height: 100vh;
 }
 
 .container {
-    min-height: 100vh;
+    min-height: 100vh;              /* vult volledig scherm */
     display: flex;
-    flex-direction: column; /* verticale stapeling */
-    align-items: center;     /* horizontaal centreren */
-    justify-content: center; /* verticaal centreren */
+    flex-direction: column;         /* verticale stapeling */
+    justify-content: center;        /* verticaal centreren */
+    align-items: center;            /* horizontaal centreren */
+    gap: 10px;                      /* ruimte tussen logo en tekst */
 }
 
 .logo {
     width: 400px;
-    margin-bottom: 10px; /* ruimte tussen logo en tekst */
+    display: block;
+    margin: 0 auto;
 }
 
 h1 {
-    font-size: 90px;
+    margin: 10px 0;
+    font-size: 100px;
+    font-weight: 400;
     color: #333;
-    font-family: "Dancing Script", serif;
-    font-weight: 500;
-    text-align: center;
-    margin: 0; /* geen extra ruimte rondom de tekst */
+    font-family: 'Tangerine', cursive;
+}
+
+h2 {
+    margin: 10px 0;
+    font-size: 60px;
+    font-weight: 400;
+    color: #333;
+    font-family: 'Tangerine', cursive;
 }
