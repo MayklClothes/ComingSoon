@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
 body {
     margin: 0;
     background-color: #f5f5f5;
@@ -20,7 +22,7 @@ body {
 h1 {
     font-size: 90px;
     color: #333;
-    font-family: "Bradley Hand ITC", serif;
+    font-family: "Dancing Script", serif;
     font-weight: 500;
     text-align: center;
     margin: 0; /* geen extra ruimte rondom de tekst */
