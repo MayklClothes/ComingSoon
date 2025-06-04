@@ -13,26 +13,26 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 5px;         /* nog minder ruimte */
+    gap: 2px;         /* nog minder ruimte */
 }
 
 .logo {
-    width: 200px;    /* nog kleiner logo */
+    width: 100px;    /* nog kleiner logo (200 → 100) */
     display: block;
     margin: 0 auto;
 }
 
 h1 {
-    margin: 5px 0;
-    font-size: 60px; /* nog kleiner */
+    margin: 2px 0;   /* marges gehalveerd */
+    font-size: 30px; /* de helft kleiner (60 → 30) */
     font-weight: 400;
     color: #333;
     font-family: 'Tangerine', cursive;
 }
 
 h2 {
-    margin: 5px 0;
-    font-size: 40px; /* nog kleiner */
+    margin: 2px 0;
+    font-size: 20px; /* de helft kleiner (40 → 20) */
     font-weight: 400;
     color: #333;
     font-family: 'Tangerine', cursive;
