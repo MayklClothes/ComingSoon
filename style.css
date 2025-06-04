@@ -8,12 +8,12 @@ body {
 }
 
 .container {
-    min-height: 100vh;              /* vult volledig scherm */
+    min-height: 100vh;
     display: flex;
-    flex-direction: column;         /* verticale stapeling */
-    justify-content: center;        /* verticaal centreren */
-    align-items: center;            /* horizontaal centreren */
-    gap: 10px;                      /* ruimte tussen logo en tekst */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 .logo {
@@ -36,4 +36,17 @@ h2 {
     font-weight: 400;
     color: #333;
     font-family: 'Tangerine', cursive;
+}
+
+/* 📱 MEDIA QUERY voor GSM-schermen */
+@media (max-width: 768px) {
+    .logo {
+        width: 250px;   /* kleiner logo op gsm */
+    }
+    h1 {
+        font-size: 70px; /* kleiner, verhouding behouden */
+    }
+    h2 {
+        font-size: 40px; /* kleiner, verhouding behouden */
+    }
 }
