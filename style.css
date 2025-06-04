@@ -1,3 +1,6 @@
+/* Google Fonts integratie (plaats dit in je HTML-bestand binnen <head>) */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
 body {
     margin: 0;
     background-color: #f5f5f5;
@@ -21,4 +24,13 @@ h1 {
     font-size: 3rem;
     color: #333;
     margin: 0;
+}
+
+#ComingSoon {
+    font-family: "Bodoni MT", Didot, "Playfair Display", serif;
+    font-weight: 400; /* pas aan naar 300 of 500 indien gewenst */
+    font-size: 2rem; /* pas dit aan voor gewenste grootte */
+    color: #555;
+    margin-top: 10px;
+    text-align: center;
 }
