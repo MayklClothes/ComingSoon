@@ -13,40 +13,27 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 5px;         /* nog minder ruimte */
 }
 
 .logo {
-    width: 400px;
+    width: 200px;    /* nog kleiner logo */
     display: block;
     margin: 0 auto;
 }
 
 h1 {
-    margin: 10px 0;
-    font-size: 100px;
+    margin: 5px 0;
+    font-size: 60px; /* nog kleiner */
     font-weight: 400;
     color: #333;
     font-family: 'Tangerine', cursive;
 }
 
 h2 {
-    margin: 10px 0;
-    font-size: 60px;
+    margin: 5px 0;
+    font-size: 40px; /* nog kleiner */
     font-weight: 400;
     color: #333;
     font-family: 'Tangerine', cursive;
-}
-
-/* 📱 MEDIA QUERY voor GSM-schermen */
-@media (max-width: 768px) {
-    .logo {
-        width: 250px;   /* kleiner logo op gsm */
-    }
-    h1 {
-        font-size: 70px; /* kleiner, verhouding behouden */
-    }
-    h2 {
-        font-size: 40px; /* kleiner, verhouding behouden */
-    }
 }
